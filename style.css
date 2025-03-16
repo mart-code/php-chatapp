@@ -250,3 +250,40 @@ input:-webkit-autofill:active {
   height: 45px;
   width: 45px;
 }
+
+.chat-area header .back-icon {
+  font-size: 18px;
+  color: #eee;
+}
+
+.chat-area header span {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.chat-box {
+  height: 500px;
+  background-color: #2a2a2a;
+  padding: 10px 30px 20px 30px;
+}
+.chat-area .chat p {
+  padding: 18px 16px;
+}
+.chat-box .outgoing {
+  display: flex;
+}
+.outgoing .details {
+  max-width: calc(100% - 130px);
+  margin-left: auto;
+}
+
+.outgoing .details p {
+  background: #eee;
+  color: #111;
+  border-radius: 18px 18px 0 18px;
+}
+
+.chat-box .incoming img {
+  height: 35px;
+  width: 35px;
+}
